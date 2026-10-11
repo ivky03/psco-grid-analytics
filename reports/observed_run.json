@@ -1,0 +1,22 @@
+{
+  "provenance": "Multi-year metrics and quality counts transcribed from the user's terminal run; not recomputed in this workspace.",
+  "source": "EIA-930 public bulk CSV / PSCO",
+  "years": "2019-2025",
+  "source_files": 14,
+  "source_bytes": 616148473,
+  "source_rows_scanned": 3848038,
+  "rows": 61368,
+  "missing_demand_raw": 24,
+  "nonpositive_demand_raw": 13,
+  "analysis_demand_rows_excluded": 37,
+  "duplicate_timestamps": 0,
+  "missing_hour_slots": 0,
+  "start_utc": "2019-01-01 08:00:00+00:00",
+  "end_utc": "2026-01-01 07:00:00+00:00",
+  "metrics": {
+    "lag_24_same_hour_1h": {"mae_mw": 343.59, "rmse_mw": 455.42, "rows": 12233},
+    "gradient_boosting_1h": {"mae_mw": 103.72, "rmse_mw": 146.03, "rows": 12233},
+    "lag_1_persistence_1h": {"mae_mw": 181.26, "rmse_mw": 230.17, "rows": 12233},
+    "eia_day_ahead_different_horizon": {"mae_mw": 383.39, "rmse_mw": 481.1, "rows": 12233}
+  }
+}
